@@ -1,7 +1,7 @@
 import { Box, Flex, SimpleGrid, Text, theme } from "@chakra-ui/react";
-import Header from "../components/Header";
-import Sidebar from "../components/Sidebar";
 import dynamic from "next/dynamic";
+import { Header } from "../components/Header";
+import { Sidebar } from "../components/Sidebar";
 
 //Esse tipo de importação do chart é feita para que o chart seja montado somente
 //no browser (ele não pode ser carregado no server). Abaixo temos o ssr desligado.
