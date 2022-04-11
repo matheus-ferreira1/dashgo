@@ -3,7 +3,8 @@ import { Text } from "@chakra-ui/react";
 export function Logo() {
   return (
    <Text 
-      fontSize="3xl"
+      //forma de responsividade no chakra, setando as dimensoes para cada breakpoint
+      fontSize={["2xl", "3xl"]}
       fontWeight="bold"
       letterSpacing="tight"
       w="64"
